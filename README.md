@@ -1,17 +1,17 @@
-# 🏋️ Smart Gym Station — CP02
+# Smart Gym Station — CP02
 **FIAP · Engenharia de Software · Physical Computing (IoT & IoB)**
 
 > Sistema de estação inteligente de treino com identificação via RFID, persistência SQLite, monitoramento por câmera (MediaPipe) e interface gráfica (Tkinter).
 
 ---
 
-## 👥 Equipe
+## Equipe
 
 | Nome | RM |
 |------|----|
-| _(Nome do integrante 1)_ | RM XXXXX |
-| _(Nome do integrante 2)_ | RM XXXXX |
-| _(Nome do integrante 3)_ | RM XXXXX |
+| Gabriel Henrique Padula| RM 554907 |
+| Arthur Abonizio | RM 555506  |
+| Rodrigo Nakata| RM 556417  |
 
 ---
 
@@ -30,7 +30,7 @@
 
 ---
 
-## 🗃️ Banco de Dados (SQLite)
+## Banco de Dados (SQLite)
 
 ### Tabela `alunos`
 | Coluna       | Tipo    | Descrição                          |
@@ -51,7 +51,7 @@
 
 ---
 
-## 🧰 Hardware
+## Hardware
 
 | Componente           | Quantidade | Observação                   |
 |----------------------|------------|------------------------------|
@@ -78,7 +78,7 @@ RST    →  GPIO 22
 
 ---
 
-## 📚 Bibliotecas
+## Bibliotecas
 
 ### Python
 ```
@@ -98,7 +98,7 @@ SPI           # Protocolo de comunicação (nativa)
 
 ---
 
-## ⚙️ Setup e Execução
+## Setup e Execução
 
 ### 1. Clonar o repositório
 ```bash
@@ -143,7 +143,7 @@ python smart_gym_demo.py
 
 ---
 
-## 🎬 Fluxo de Uso
+## Fluxo de Uso
 
 ```
 Aproximar cartão RFID
@@ -167,13 +167,13 @@ Aluno pressiona "Encerrar Sessão"
 
 ---
 
-## 🎥 Vídeo Demonstrativo
+## Vídeo Demonstrativo
 
 🔗 _(Inserir link do vídeo aqui)_
 
 ---
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```
 smart-gym-cp02/
